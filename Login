@@ -1,0 +1,51 @@
+	import java.util.List;
+	import java.util.Scanner;
+	import java.util.ArrayList;
+  
+  public class Login {
+
+public String getNome() {
+	return nome;
+}
+public void setNome(String nome) {
+	this.nome = nome;
+}
+public int getCPF() {
+	return CPF;
+}
+public void setCPF(int CPF) {
+	this.CPF = CPF;
+}
+public String getLogin() {
+	return login;
+}
+public void setLogin(String login) {
+	this.login = login;
+}
+public String getEndereço() {
+	return Endereço;
+}
+public void setEndereço(String Endereço) {
+	this.Endereço = Endereço;
+}
+public String getSenha() {
+	return Senha;
+}
+public void setSenha(String Senha) {
+	this.Senha = Senha;
+}
+
+public String getID() {
+	return ID;
+}
+public void setID(String ID) {
+	this.ID = ID;
+}
+}
+public String getDatadeNascimento() {
+	return DetadeNascimento;
+}
+public void setDatadeNascimento(String DatadeNascimento) {
+	this.DatadeNascimento = DatadeNascimento;
+  }
+}
